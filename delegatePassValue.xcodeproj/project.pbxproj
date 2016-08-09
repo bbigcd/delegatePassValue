@@ -15,6 +15,7 @@
 		2A2C99111D59622C00875FCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A2C990F1D59622C00875FCF /* LaunchScreen.storyboard */; };
 		2A2C991C1D59622C00875FCF /* delegatePassValueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2C991B1D59622C00875FCF /* delegatePassValueTests.m */; };
 		2A2C99271D59622C00875FCF /* delegatePassValueUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2C99261D59622C00875FCF /* delegatePassValueUITests.m */; };
+		2A2C99361D59641200875FCF /* DelegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2C99351D59641200875FCF /* DelegateViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		2A2C99221D59622C00875FCF /* delegatePassValueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = delegatePassValueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A2C99261D59622C00875FCF /* delegatePassValueUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = delegatePassValueUITests.m; sourceTree = "<group>"; };
 		2A2C99281D59622C00875FCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A2C99341D59641200875FCF /* DelegateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelegateViewController.h; sourceTree = "<group>"; };
+		2A2C99351D59641200875FCF /* DelegateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelegateViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				2A2C99051D59622C00875FCF /* AppDelegate.m */,
 				2A2C99071D59622C00875FCF /* ViewController.h */,
 				2A2C99081D59622C00875FCF /* ViewController.m */,
+				2A2C99341D59641200875FCF /* DelegateViewController.h */,
+				2A2C99351D59641200875FCF /* DelegateViewController.m */,
 				2A2C990A1D59622C00875FCF /* Main.storyboard */,
 				2A2C990D1D59622C00875FCF /* Assets.xcassets */,
 				2A2C990F1D59622C00875FCF /* LaunchScreen.storyboard */,
@@ -207,6 +212,7 @@
 				TargetAttributes = {
 					2A2C98FD1D59622C00875FCF = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 7E2J7CUZTM;
 					};
 					2A2C99161D59622C00875FCF = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -271,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A2C99091D59622C00875FCF /* ViewController.m in Sources */,
+				2A2C99361D59641200875FCF /* DelegateViewController.m in Sources */,
 				2A2C99061D59622C00875FCF /* AppDelegate.m in Sources */,
 				2A2C99031D59622C00875FCF /* main.m in Sources */,
 			);
@@ -411,7 +418,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = delegatePassValue/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cd.delegatePassValue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,7 +431,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = delegatePassValue/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cd.delegatePassValue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
