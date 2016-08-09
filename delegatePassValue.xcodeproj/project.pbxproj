@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A2C99031D59622C00875FCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2C99021D59622C00875FCF /* main.m */; };
+		2A2C99061D59622C00875FCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2C99051D59622C00875FCF /* AppDelegate.m */; };
+		2A2C99091D59622C00875FCF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2C99081D59622C00875FCF /* ViewController.m */; };
+		2A2C990C1D59622C00875FCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A2C990A1D59622C00875FCF /* Main.storyboard */; };
+		2A2C990E1D59622C00875FCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A2C990D1D59622C00875FCF /* Assets.xcassets */; };
+		2A2C99111D59622C00875FCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A2C990F1D59622C00875FCF /* LaunchScreen.storyboard */; };
+		2A2C991C1D59622C00875FCF /* delegatePassValueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2C991B1D59622C00875FCF /* delegatePassValueTests.m */; };
+		2A2C99271D59622C00875FCF /* delegatePassValueUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2C99261D59622C00875FCF /* delegatePassValueUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A2C99181D59622C00875FCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A2C98F61D59622C00875FCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A2C98FD1D59622C00875FCF;
+			remoteInfo = delegatePassValue;
+		};
+		2A2C99231D59622C00875FCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A2C98F61D59622C00875FCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A2C98FD1D59622C00875FCF;
+			remoteInfo = delegatePassValue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A2C98FE1D59622C00875FCF /* delegatePassValue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = delegatePassValue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A2C99021D59622C00875FCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A2C99041D59622C00875FCF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2A2C99051D59622C00875FCF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2A2C99071D59622C00875FCF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2A2C99081D59622C00875FCF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2A2C990B1D59622C00875FCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A2C990D1D59622C00875FCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A2C99101D59622C00875FCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A2C99121D59622C00875FCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A2C99171D59622C00875FCF /* delegatePassValueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = delegatePassValueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A2C991B1D59622C00875FCF /* delegatePassValueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = delegatePassValueTests.m; sourceTree = "<group>"; };
+		2A2C991D1D59622C00875FCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A2C99221D59622C00875FCF /* delegatePassValueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = delegatePassValueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A2C99261D59622C00875FCF /* delegatePassValueUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = delegatePassValueUITests.m; sourceTree = "<group>"; };
+		2A2C99281D59622C00875FCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A2C98FB1D59622C00875FCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A2C99141D59622C00875FCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A2C991F1D59622C00875FCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A2C98F51D59622C00875FCF = {
+			isa = PBXGroup;
+			children = (
+				2A2C99001D59622C00875FCF /* delegatePassValue */,
+				2A2C991A1D59622C00875FCF /* delegatePassValueTests */,
+				2A2C99251D59622C00875FCF /* delegatePassValueUITests */,
+				2A2C98FF1D59622C00875FCF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A2C98FF1D59622C00875FCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A2C98FE1D59622C00875FCF /* delegatePassValue.app */,
+				2A2C99171D59622C00875FCF /* delegatePassValueTests.xctest */,
+				2A2C99221D59622C00875FCF /* delegatePassValueUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A2C99001D59622C00875FCF /* delegatePassValue */ = {
+			isa = PBXGroup;
+			children = (
+				2A2C99041D59622C00875FCF /* AppDelegate.h */,
+				2A2C99051D59622C00875FCF /* AppDelegate.m */,
+				2A2C99071D59622C00875FCF /* ViewController.h */,
+				2A2C99081D59622C00875FCF /* ViewController.m */,
+				2A2C990A1D59622C00875FCF /* Main.storyboard */,
+				2A2C990D1D59622C00875FCF /* Assets.xcassets */,
+				2A2C990F1D59622C00875FCF /* LaunchScreen.storyboard */,
+				2A2C99121D59622C00875FCF /* Info.plist */,
+				2A2C99011D59622C00875FCF /* Supporting Files */,
+			);
+			path = delegatePassValue;
+			sourceTree = "<group>";
+		};
+		2A2C99011D59622C00875FCF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A2C99021D59622C00875FCF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A2C991A1D59622C00875FCF /* delegatePassValueTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A2C991B1D59622C00875FCF /* delegatePassValueTests.m */,
+				2A2C991D1D59622C00875FCF /* Info.plist */,
+			);
+			path = delegatePassValueTests;
+			sourceTree = "<group>";
+		};
+		2A2C99251D59622C00875FCF /* delegatePassValueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A2C99261D59622C00875FCF /* delegatePassValueUITests.m */,
+				2A2C99281D59622C00875FCF /* Info.plist */,
+			);
+			path = delegatePassValueUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A2C98FD1D59622C00875FCF /* delegatePassValue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A2C992B1D59622C00875FCF /* Build configuration list for PBXNativeTarget "delegatePassValue" */;
+			buildPhases = (
+				2A2C98FA1D59622C00875FCF /* Sources */,
+				2A2C98FB1D59622C00875FCF /* Frameworks */,
+				2A2C98FC1D59622C00875FCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = delegatePassValue;
+			productName = delegatePassValue;
+			productReference = 2A2C98FE1D59622C00875FCF /* delegatePassValue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A2C99161D59622C00875FCF /* delegatePassValueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A2C992E1D59622C00875FCF /* Build configuration list for PBXNativeTarget "delegatePassValueTests" */;
+			buildPhases = (
+				2A2C99131D59622C00875FCF /* Sources */,
+				2A2C99141D59622C00875FCF /* Frameworks */,
+				2A2C99151D59622C00875FCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A2C99191D59622C00875FCF /* PBXTargetDependency */,
+			);
+			name = delegatePassValueTests;
+			productName = delegatePassValueTests;
+			productReference = 2A2C99171D59622C00875FCF /* delegatePassValueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A2C99211D59622C00875FCF /* delegatePassValueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A2C99311D59622C00875FCF /* Build configuration list for PBXNativeTarget "delegatePassValueUITests" */;
+			buildPhases = (
+				2A2C991E1D59622C00875FCF /* Sources */,
+				2A2C991F1D59622C00875FCF /* Frameworks */,
+				2A2C99201D59622C00875FCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A2C99241D59622C00875FCF /* PBXTargetDependency */,
+			);
+			name = delegatePassValueUITests;
+			productName = delegatePassValueUITests;
+			productReference = 2A2C99221D59622C00875FCF /* delegatePassValueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A2C98F61D59622C00875FCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = cd;
+				TargetAttributes = {
+					2A2C98FD1D59622C00875FCF = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					2A2C99161D59622C00875FCF = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 2A2C98FD1D59622C00875FCF;
+					};
+					2A2C99211D59622C00875FCF = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 2A2C98FD1D59622C00875FCF;
+					};
+				};
+			};
+			buildConfigurationList = 2A2C98F91D59622C00875FCF /* Build configuration list for PBXProject "delegatePassValue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A2C98F51D59622C00875FCF;
+			productRefGroup = 2A2C98FF1D59622C00875FCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A2C98FD1D59622C00875FCF /* delegatePassValue */,
+				2A2C99161D59622C00875FCF /* delegatePassValueTests */,
+				2A2C99211D59622C00875FCF /* delegatePassValueUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A2C98FC1D59622C00875FCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A2C99111D59622C00875FCF /* LaunchScreen.storyboard in Resources */,
+				2A2C990E1D59622C00875FCF /* Assets.xcassets in Resources */,
+				2A2C990C1D59622C00875FCF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A2C99151D59622C00875FCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A2C99201D59622C00875FCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A2C98FA1D59622C00875FCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A2C99091D59622C00875FCF /* ViewController.m in Sources */,
+				2A2C99061D59622C00875FCF /* AppDelegate.m in Sources */,
+				2A2C99031D59622C00875FCF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A2C99131D59622C00875FCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A2C991C1D59622C00875FCF /* delegatePassValueTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A2C991E1D59622C00875FCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A2C99271D59622C00875FCF /* delegatePassValueUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A2C99191D59622C00875FCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A2C98FD1D59622C00875FCF /* delegatePassValue */;
+			targetProxy = 2A2C99181D59622C00875FCF /* PBXContainerItemProxy */;
+		};
+		2A2C99241D59622C00875FCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A2C98FD1D59622C00875FCF /* delegatePassValue */;
+			targetProxy = 2A2C99231D59622C00875FCF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2A2C990A1D59622C00875FCF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A2C990B1D59622C00875FCF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A2C990F1D59622C00875FCF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A2C99101D59622C00875FCF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A2C99291D59622C00875FCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2A2C992A1D59622C00875FCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A2C992C1D59622C00875FCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = delegatePassValue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cd.delegatePassValue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2A2C992D1D59622C00875FCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = delegatePassValue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cd.delegatePassValue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2A2C992F1D59622C00875FCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = delegatePassValueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cd.delegatePassValueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/delegatePassValue.app/delegatePassValue";
+			};
+			name = Debug;
+		};
+		2A2C99301D59622C00875FCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = delegatePassValueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cd.delegatePassValueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/delegatePassValue.app/delegatePassValue";
+			};
+			name = Release;
+		};
+		2A2C99321D59622C00875FCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = delegatePassValueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cd.delegatePassValueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = delegatePassValue;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2A2C99331D59622C00875FCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = delegatePassValueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cd.delegatePassValueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = delegatePassValue;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A2C98F91D59622C00875FCF /* Build configuration list for PBXProject "delegatePassValue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A2C99291D59622C00875FCF /* Debug */,
+				2A2C992A1D59622C00875FCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A2C992B1D59622C00875FCF /* Build configuration list for PBXNativeTarget "delegatePassValue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A2C992C1D59622C00875FCF /* Debug */,
+				2A2C992D1D59622C00875FCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2A2C992E1D59622C00875FCF /* Build configuration list for PBXNativeTarget "delegatePassValueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A2C992F1D59622C00875FCF /* Debug */,
+				2A2C99301D59622C00875FCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2A2C99311D59622C00875FCF /* Build configuration list for PBXNativeTarget "delegatePassValueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A2C99321D59622C00875FCF /* Debug */,
+				2A2C99331D59622C00875FCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A2C98F61D59622C00875FCF /* Project object */;
+}
